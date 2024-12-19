@@ -23,7 +23,7 @@ namespace CoPilotDemo
             LastName = lastName;
         }
 
-        public void PrintInfo()
+        public void DisplayInfo()
         {
             Console.WriteLine($"Name: {FirstName} {LastName}");
             Console.WriteLine($"Age: {Age}");
